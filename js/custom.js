@@ -16,7 +16,7 @@
             });*/
             Royal_Preloader.config({
 		        mode:        'scale_text',
-		        text:        'reach new heights',
+		        text:        'Reach Your True Potential',
 		        text_colour: '#f8f8f8',
 				background:  '#212121'
 			});	
@@ -194,7 +194,7 @@
 
 		$(".tipped").tipper();
 
-		
+
 		/* Logos Carousel */		
 		
 		$("#owl-logos").owlCarousel({
@@ -227,11 +227,16 @@
 		$('.parallax-5').parallax("50%", 0.3); 
 		$('.parallax-6').parallax("50%", 0.3); 
 
+		//Facts Counter 
 	
+        $('.counter-numb').counterUp({
+            delay: 100,
+            time: 3000
+        });
 
 		
 	//Set your google maps parameters
-
+	/*
 		var latitude = 44.8013716,
 			longitude = 20.4631372,
 			map_zoom = 15;
@@ -458,7 +463,7 @@
 
 		//insert the zoom div on the top left of the map
 		map.controls[google.maps.ControlPosition.LEFT_TOP].push(zoomControlDiv);
-
+	*/
 
 	/* Portfolio Sorting */
 

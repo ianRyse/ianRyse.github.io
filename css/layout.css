@@ -2639,7 +2639,8 @@ figure.vimeo a img, figure.youtube a img {
 }
 .contact-half-wrap {
 	position:relative;
-	width:50%;
+	//width:50%;
+    width: 100%;
 	display:inline-block;
 	float:left;
 	height:100vh;
