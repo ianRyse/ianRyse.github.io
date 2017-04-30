@@ -16,7 +16,8 @@ ul.slimmenu li a.mPS2id-highlight,
 .project-page a:hover,
 .services-wrap .icon-ser,
 #royal_preloader.royal_preloader_number .royal_preloader_percentage:after{
-    color: #6dc234;
+    //color: #6dc234;
+    color: #05EBDE;
 }
 .menu--juliet .menu__link::after,
 #owl-sep-1.owl-theme .owl-controls .owl-page.active span,
@@ -31,7 +32,8 @@ ul.slimmenu li a.mPS2id-highlight,
 #owl-home.owl-theme .owl-controls .owl-page span:hover,
 .custom.tparrows:hover,
  .metis.tparrows:hover  {
-	background: #6dc234;
+	//background: #6dc234;
+	background: #05EBDE;
 }
 #cd-zoom-in, #cd-zoom-out,
 #ajax-form button:hover,
@@ -42,7 +44,8 @@ ul.slimmenu li a.mPS2id-highlight,
 #filter li .current,
 #filter li a:hover,
 .tp-loader.spinner2 {
-	background-color: #6dc234;
+	//background-color: #6dc234;
+	background-color: #05EBDE;
 }
 
 
@@ -50,21 +53,26 @@ ul.slimmenu li a.mPS2id-highlight,
 #ajax-form input:focus,
 #ajax-form textarea:active,
 #ajax-form input:active {	
-	border-bottom:1px solid #6dc234;
+	//border-bottom:1px solid #6dc234;
+	border-bottom: 1px solid #05EBDE;
 }
 ::selection {
-	background: #6dc234;
+	//background: #6dc234;
+	background: #05EBDE;
 }
 ::-moz-selection {
-	background: #6dc234;
+	//background: #6dc234;
+	background: #05EBDE;
 }
 
 @media only screen and (min-width: 1200px) {
 .journal-det{
-	border-right:3px solid #6dc234;
+	//border-right:3px solid #6dc234;
+	border-right:3px solid #05EBDE;
 }
 .journal-det-right{
-	border-left:3px solid #6dc234;
+	//border-left:3px solid #6dc234;
+	border-left:3px solid #05EBDE;
 }
 }
 
