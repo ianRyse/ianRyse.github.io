@@ -376,7 +376,7 @@ body.royal_preloader {
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
 	transition : all 0.3s ease-out;
-    box-shadow: 0 0 20px rgba(5,235,222,.04);
+    box-shadow: 0 0 20px rgba(5,235,222,.045);
 }
 .cbp-af-header.cbp-af-header-shrink .logo{
 	width:86px;
@@ -729,6 +729,9 @@ ul.slimmenu.collapsed li > ul {
 	top:9px;
 	left:16px;
 	background-color:#646464;
+} 
+.title-text.white.left p span:before {
+    background-color:#f9f9f9;
 } 
  
  
@@ -1381,7 +1384,7 @@ aside {
   width: 70%;
   min-width: 320px;
 }
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1700px) {
     aside {
       margin: 0px auto 0;
     }     
@@ -2264,6 +2267,7 @@ aside header:after {
     color: black !important;
     letter-spacing: 3px;
     font-weight: bold;
+    font-variant: small-caps;
 }
 #filter li a:hover {
 }
