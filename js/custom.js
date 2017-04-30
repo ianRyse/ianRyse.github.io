@@ -1,10 +1,11 @@
 (function($) { "use strict";
 
 	$(window).load(function() {
-	  $("#remove-class").removeClass("preload");
+		setTimeout(function(){
+		  $("#remove-class").removeClass("preload");
+		}, 0);  
 	});
 
-	
 	//Preloader
 
             /*Royal_Preloader.config({
@@ -16,7 +17,7 @@
             });*/
             Royal_Preloader.config({
 		        mode:        'scale_text',
-		        text:        'Reach Your True Potential',
+		        text:        'Reach New Heights',
 		        text_colour: '#f8f8f8',
 				background:  '#212121'
 			});	
@@ -116,7 +117,7 @@
                             jsFileLocation: "//server.local/revslider/wp-content/plugins/revslider/public/assets/js/",
                             sliderLayout: "fullscreen",
                             dottedOverlay: "none",
-                            delay: 4000,
+                            delay: 6000,
                             navigation: {
                                 keyboardNavigation: "on",
                                 keyboard_direction: "horizontal",
@@ -159,8 +160,9 @@
                             parallax: {
                                 type: "mouse",
                                 origo: "slidercenter",
-                                speed: 300,
-                                levels: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 49, 50, 51, 55],
+                                speed: 500,
+                                //levels: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 49, 50, 51, 55],
+                                levels: [2, 4, 6, 8, 10, 18, 20, 22, 24, 49, 50, 51, 55],
                                 type: "mouse",
                             },
                             shadow: 0,
