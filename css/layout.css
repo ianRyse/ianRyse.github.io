@@ -367,7 +367,8 @@ body.royal_preloader {
 }
 
 .cbp-af-header.cbp-af-header-shrink {
-	background: rgba(0,0,0,.93);
+	//background: rgba(0,0,0,.93);
+    background: rgba(255,255,255,1);
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
@@ -385,7 +386,8 @@ body.royal_preloader {
 	transition : all 0.3s ease-out;
 }
 .cbp-af-header.cbp-af-header-shrink ul.slimmenu li a {
-    color: #fff;
+    //color: #fff;
+    color: rgba(0,0,0,.93);
 }
 .cbp-af-header.cbp-af-header-shrink ul.slimmenu li {
     position: relative;
