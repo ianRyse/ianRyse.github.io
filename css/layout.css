@@ -1303,14 +1303,14 @@ svg * {
 }
 
 .profile-wrapper .profile-image.dj {
-    background: url(https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAdNAAAAJDRjMDQ5NTEyLWUxZjQtNGE0ZC05NTQ0LWNlY2YyYzBmMWUxOQ.jpg);
+    background: url(../images/team/david1.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 .profile-wrapper .profile-image.ian {
-    background: url(https://scontent.flhr3-1.fna.fbcdn.net/v/t31.0-8/15800779_1105166262926904_1791033051886846405_o.jpg?oh=d250d327d0ab3689c1125d51fa8c2583&oe=59835FCB);
+    background: url(../images/team/ian1.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1323,7 +1323,17 @@ svg * {
   height: 100%;
   width: 100%;
   z-index: -100;
-  background-color: rgba(5,235,222,0.7);
+  background-color: rgba(5,235,222,0.3);
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+.profile-wrapper:hover .profile-image:after {
+  opacity: 0;
+}
+.profile-wrapper:hover .profile-image {
+  -webkit-filter: grayscale(1); /* Old WebKit */
+  filter: grayscale(1);
 }
 
 .profile-wrapper .profile-image img {
@@ -1377,6 +1387,10 @@ svg * {
     line-height: 1em;
     letter-spacing: -0.02em;
     margin: 0;
+    transition: color 0.5s ease-in-out;
+}
+.profile-wrapper:hover .profile-title {
+  color: #05EBDE;
 }
 
 .profile-wrapper .profile-title span {
@@ -1396,19 +1410,26 @@ svg * {
     -webkit-box-shadow: 0px 15px 50px -13px rgba(0,0,0,0.34);
     -moz-box-shadow: 0px 15px 50px -13px rgba(0,0,0,0.34);
     box-shadow: 0px 15px 50px -13px rgba(0,0,0,0.34);
+    transition: all 2500ms linear;
 }
 
 .profile-wrapper .profile-info .content {
     display: inline-block;
     float: right;
     width: 47%;
+    width: 60%;
     padding: 7%;
 }
 
 .profile-wrapper .profile-info .content h3 {
     text-transform: uppercase;
-    color: #dc143c;
-    letter-spacing: 0.2em;
+    color: #05EBDE;
+    //letter-spacing: 0.2em;
+    text-align: left;
+    transition: color 0.5s ease-in-out;
+}
+.profile-wrapper:hover .content h3 {
+  color: #333;
 }
 
 .profile-wrapper .profile-info .content p {
@@ -1424,7 +1445,7 @@ svg * {
 }
 
 .profile-wrapper .profile-info .content p.link i {
-    color: #dc143c;
+    color: #05EBDE;
     font-family: "FontAwesome";
     line-height: inherit;
     margin-right: 4%;
@@ -1439,7 +1460,7 @@ svg * {
 
 .profile-wrapper .profile-info .content p.link a:link:hover,
 .profile-wrapper .profile-info .content p.link a:visited:hover {
-    color: #dc143c;
+    color: #05EBDE;
     transition: color 0.25s;
 }
 
@@ -1461,7 +1482,7 @@ svg * {
     width: 33.33%;
     float: left;
     text-align: center;
-    color: #dc143c;
+    color: #05EBDE;
     font-size: 0.8em;
     line-height: 2em;
 }
@@ -1578,14 +1599,46 @@ svg * {
 .list-social-team li:hover.icon-team a{
 }
 
+@media only screen and (max-width: 1199px) {
+    .profile-title {
+        left: 5% !important;
+        font-size: 4.2em !important;
+        top: inherit !important;
+        bottom: 28% !important;
+        color: rgba(242,242,242,0.9) !important;
+        text-align: left;
+        //transition: all 20s linear;
+    }
+    .profile-title span {
+        margin-left: 0% !important;
+    }
+    .profile-image {
+        width: 100% !important;
+    }
+    .profile-info, .profile-info .content {
+        width: 100% !important;
+    }
+    .profile-wrapper:hover .profile-title {
+        top: 7.4% !important;
+        color: #05EBDE !important;
+    }
+    .profile-wrapper:hover .profile-info {
+        z-index: 99;
+    }
+}
 
+@media only screen and (max-width: 767px) {
+    .profile-wrapper {
+        margin: 1em 0 0 !important;
+        height: 530px !important;
+    }
+}
 
 /* #Sep
 ================================================== */
 
 .parallax-1 {
-	background: url('../images/liane-metzler-150284.jpg') repeat fixed;
-    background: url('https://images.unsplash.com/photo-1472158450446-5d1e9e1f34cb?dpr=2&auto=format&fit=crop&w=1500&h=844&q=80&cs=tinysrgb&crop=&bg=') repeat fixed;
+	background: url('../images/parallax-mountain.jpg') repeat fixed;
     background-size: cover;
     background-position: left;
 	position: absolute;
@@ -1924,7 +1977,11 @@ svg * {
 .portfolio-bottom-link:hover:after {
 	right:0;
 } 
-
+@media only screen and (max-width: 768px) {
+  #portfolio-filter {
+    min-width: 100% !important;
+  }
+}
 	
 /* #Portfolio
 ================================================== */	
@@ -3672,7 +3729,7 @@ ul.slimmenu li > ul {
     }
     .cbp-af-header .hamburger .inner {
         margin-top: 6.5px;
-        margin-left: -3px !important;
+        margin-left: -1px !important;
     }
     .cbp-af-header-shrink .hamburger .inner {
         margin-top: 6.5px !important;

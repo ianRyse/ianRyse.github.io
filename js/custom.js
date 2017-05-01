@@ -13,7 +13,7 @@
                 showProgress   : true,
                 showPercentage : false,
                 text_colour    : '#777777',
-                background     : '#FFFFFF'
+                background     : '#212121'
             });*/
             Royal_Preloader.config({
 		        mode:        'scale_text',
