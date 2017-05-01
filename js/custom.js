@@ -25,7 +25,7 @@
 			
 	//Navigation	
 	
-	$('ul.slimmenu').on('click',function(){
+	/*$('ul.slimmenu').on('click',function(){
 			var width = $(window).width(); 
 			if ((width <= 1200)){ 
 			$(this).slideToggle(); 
@@ -39,8 +39,52 @@
 			animSpeed:'medium',
 			indentChildren: true,
 			childrenIndenter: '&raquo;'
-	});
+	});*/
 
+	$('.hamburger').on('click',function(){
+		var menu = document.querySelector('.hamburger') // Using a class instead, see note below.
+		menu.classList.toggle('open');
+		$( ".nav-center" ).toggle();
+		var selectBody = document.querySelector('body') // Using a class instead, see note below.
+		selectBody.classList.toggle('body-no-scroll');
+	});	
+
+	$('.menu-item-7204').on('click',function(){
+		var selectBody = document.querySelector('body') // Using a class instead, see note below.
+		selectBody.classList.toggle('body-no-scroll');
+		$(".nav-center").addClass('fadeOut');
+		var menu = document.querySelector('.hamburger') // Using a class instead, see note below.
+		menu.classList.toggle('open');
+		$( ".nav-center" ).toggle();
+		$(".nav-center").removeClass('fadeOut');
+	});	
+	$('.menu-item-7883').on('click',function(){
+		var selectBody = document.querySelector('body') // Using a class instead, see note below.
+		selectBody.classList.toggle('body-no-scroll');
+		$(".nav-center").addClass('fadeOut');
+		var menu = document.querySelector('.hamburger') // Using a class instead, see note below.
+		menu.classList.toggle('open');
+		$( ".nav-center" ).toggle();
+		$(".nav-center").removeClass('fadeOut');
+	});
+	$('.menu-item-7884').on('click',function(){
+		var selectBody = document.querySelector('body') // Using a class instead, see note below.
+		selectBody.classList.toggle('body-no-scroll');
+		$(".nav-center").addClass('fadeOut');
+		var menu = document.querySelector('.hamburger') // Using a class instead, see note below.
+		menu.classList.toggle('open');
+		$( ".nav-center" ).toggle();
+		$(".nav-center").removeClass('fadeOut');
+	});	
+	$('.menu-item-7885').on('click',function(){
+		var selectBody = document.querySelector('body') // Using a class instead, see note below.
+		selectBody.classList.toggle('body-no-scroll');
+		$(".nav-center").addClass('fadeOut');
+		var menu = document.querySelector('.hamburger') // Using a class instead, see note below.
+		menu.classList.toggle('open');
+		$( ".nav-center" ).toggle();
+		$(".nav-center").removeClass('fadeOut');
+	});	
 
 	/* Scroll animations */
 	
