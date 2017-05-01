@@ -380,10 +380,11 @@ body.royal_preloader {
 }
 .cbp-af-header.cbp-af-header-shrink .logo{
 	width:86px;
-	height:16px;
-	top:32px;
+	height:25px;
+	top:28px;
 	background:url('../images/logo-light.png') no-repeat center center;
 	background-size:48px 15px;
+    background-size: 100%;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
@@ -440,11 +441,12 @@ ul.slimmenu li ul {
 .logo{
 	position:absolute;
 	width:134px;
-	height:25px;
+	height:50px;
 	z-index:10000;
-	top:50px;
+	top:32px;
 	background:url('../images/logo-light.png') no-repeat center center;
 	background-size:80px 25px;
+    background-size: 100%;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
@@ -3557,11 +3559,12 @@ figure.vimeo a img, figure.youtube a img {
 }
 .cbp-af-header.cbp-af-header-shrink .logo, .cbp-af-header .logo {
 	width:80px;
-	height:15px;
-	left:20px;
-	top:23px;
+	height:25px;
+	left:17px;
+	top:18px;
 	background:url('../images/logo-light.png') no-repeat center center;
 	background-size:48px 15px;
+    background-size: 90%;
 	-webkit-transition : all 0.5s ease-out;
 	-moz-transition : all 0.5s ease-out;
 	-o-transition :all 0.5s ease-out;
