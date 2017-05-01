@@ -1983,6 +1983,15 @@ svg * {
   #portfolio-filter {
     min-width: 100% !important;
   }
+  .tp-leftarrow, .tp-rightarrow {
+    display: none !important;
+  }
+  .show-on-mob {
+    display: block !important;
+  }
+  .hide-on-mob {
+    display: none !important;
+  }
 }
 	
 /* #Portfolio
