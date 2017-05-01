@@ -17,7 +17,7 @@
             });*/
             Royal_Preloader.config({
 		        mode:        'scale_text',
-		        text:        'Reach New Heights',
+		        text:        'Achieve New Heights',
 		        text_colour: '#f8f8f8',
 				background:  '#212121'
 			});	
