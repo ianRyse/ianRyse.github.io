@@ -3,8 +3,8 @@
 /* Code by David McKeown - craftedbydavid.com */
 /* Editable entries are bellow */
 
-$send_to = "mail@server.com";
-$send_subject = "Ajax form ";
+$send_to = "ian@ryse.media,david@ryse.media";
+$send_subject = "Web contact form ";
 
 
 
@@ -24,10 +24,10 @@ function cleanupentries($entry) {
 	return $entry;
 }
 
-$message = "This email was submitted on " . date('m-d-Y') . 
-"\n\nName: " . $f_name . 
-"\n\nE-Mail: " . $f_email . 
-"\n\nMessage: \n" . $f_message . 
+$message = "This email was submitted on " . date('m-d-Y') .
+"\n\nName: " . $f_name .
+"\n\nE-Mail: " . $f_email .
+"\n\nMessage: \n" . $f_message .
 "\n\n\nTechnical Details:\n" . $from_ip . "\n" . $from_browser;
 
 $send_subject .= " - {$f_name}";
