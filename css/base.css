@@ -87,7 +87,7 @@ h6 { font-size: 14px; line-height: 20px;font-weight:600;}
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
 	em { font-style: italic; }
-	strong { font-weight: 600;}
+	strong, b { font-weight: 600;}
 	small { font-size: 80%; }
 	.non-bold { font-weight: 200 !important };
 
