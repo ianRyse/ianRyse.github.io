@@ -1706,6 +1706,28 @@ svg * {
 .model-2 .facebook:hover {
   color: #3B579D;
 }
+
+.model-2 .instagram {
+  background: #d93175;
+  text-shadow: 0px 0px #b32960, 1px 1px #b32960, 2px 2px #b32960, 3px 3px #b32960, 4px 4px #b32960, 5px 5px #b32960, 6px 6px #b32960, 7px 7px #b32960, 8px 8px #b32960, 9px 9px #b32960, 10px 10px #b32960, 11px 11px #b32960, 12px 12px #b32960, 13px 13px #b32960, 14px 14px #b32960, 15px 15px #b32960, 16px 16px #b32960, 17px 17px #b32960, 18px 18px #b32960, 19px 19px #b32960, 20px 20px #b32960, 21px 21px #b32960, 22px 22px #b32960, 23px 23px #b32960, 24px 24px #b32960, 25px 25px #b32960, 26px 26px #b32960, 27px 27px #b32960, 28px 28px #b32960, 29px 29px #b32960, 30px 30px #b32960;
+}
+.model-2 .instagram:hover {
+  color: #d93175;
+}
+.model-2 .codepen {
+  background: #333333;
+  text-shadow: 0px 0px #000000, 1px 1px #000000, 2px 2px #000000, 3px 3px #000000, 4px 4px #000000, 5px 5px #000000, 6px 6px #000000, 7px 7px #000000, 8px 8px #000000, 9px 9px #000000, 10px 10px #000000, 11px 11px #000000, 12px 12px #000000, 13px 13px #000000, 14px 14px #000000, 15px 15px #000000, 16px 16px #000000, 17px 17px #000000, 18px 18px #000000, 19px 19px #000000, 20px 20px #000000, 21px 21px #000000, 22px 22px #000000, 23px 23px #000000, 24px 24px #000000, 25px 25px #000000, 26px 26px #000000, 27px 27px #000000, 28px 28px #000000, 29px 29px #000000, 30px 30px #000000;
+}
+.model-2 .codepen:hover {
+  color: #191919;
+}
+.model-2 .github {
+  background: #333333;
+  text-shadow: 0px 0px #000000, 1px 1px #000000, 2px 2px #000000, 3px 3px #000000, 4px 4px #000000, 5px 5px #000000, 6px 6px #000000, 7px 7px #000000, 8px 8px #000000, 9px 9px #000000, 10px 10px #000000, 11px 11px #000000, 12px 12px #000000, 13px 13px #000000, 14px 14px #000000, 15px 15px #000000, 16px 16px #000000, 17px 17px #000000, 18px 18px #000000, 19px 19px #000000, 20px 20px #000000, 21px 21px #000000, 22px 22px #000000, 23px 23px #000000, 24px 24px #000000, 25px 25px #000000, 26px 26px #000000, 27px 27px #000000, 28px 28px #000000, 29px 29px #000000, 30px 30px #000000;
+}
+.model-2 .github:hover {
+  color: #070709;
+}
 .model-2 .google-plus {
   background: #DD4A3A;
   text-shadow: 0px 0px #c23122, 1px 1px #c23122, 2px 2px #c23122, 3px 3px #c23122, 4px 4px #c23122, 5px 5px #c23122, 6px 6px #c23122, 7px 7px #c23122, 8px 8px #c23122, 9px 9px #c23122, 10px 10px #c23122, 11px 11px #c23122, 12px 12px #c23122, 13px 13px #c23122, 14px 14px #c23122, 15px 15px #c23122, 16px 16px #c23122, 17px 17px #c23122, 18px 18px #c23122, 19px 19px #c23122, 20px 20px #c23122, 21px 21px #c23122, 22px 22px #c23122, 23px 23px #c23122, 24px 24px #c23122, 25px 25px #c23122, 26px 26px #c23122, 27px 27px #c23122, 28px 28px #c23122, 29px 29px #c23122, 30px 30px #c23122;
