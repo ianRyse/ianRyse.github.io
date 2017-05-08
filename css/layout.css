@@ -4038,6 +4038,25 @@ ul.slimmenu li > ul {
         touch-action: manipulation;
         transition: color .3s;
     }
+    /* project page mobile menu */
+    .project-page .hide-desktop-nav {
+        display: block !important;
+    }
+    .project-page .hamburger {
+        display: none !important;
+    }
+    .project-page ul.slimmenu {
+        margin-top: -8px;
+    }
+    .project-page ul.slimmenu li:not(:first-child), .project-page .cbp-af-header.cbp-af-header-shrink ul.slimmenu li:not(:first-child) {
+        background: url(../images/line.png) 0 14px no-repeat;
+        background-size: 15px 10px;
+    }
+    .project-page .cbp-af-header.cbp-af-header-shrink ul.slimmenu {
+        margin-top: -8px;
+    }
+    /* end of mobile menu for project pages */
+
     .hamburger:hover {
         color: #fff;
     }
