@@ -8,19 +8,19 @@
 
 	//Preloader
 
-            /*Royal_Preloader.config({
+            Royal_Preloader.config({
                 mode           : 'number',
                 showProgress   : true,
                 showPercentage : false,
                 text_colour    : '#777777',
                 background     : '#212121'
-            });*/
-            Royal_Preloader.config({
+            });
+            /*Royal_Preloader.config({
 		        mode:        'scale_text',
 		        text:        'Achieve New Heights',
 		        text_colour: '#f8f8f8',
 				background:  '#212121'
-			});	
+			});	*/
 			
 			
 	//Navigation	
