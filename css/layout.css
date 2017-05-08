@@ -1750,7 +1750,141 @@ svg * {
   color: #CB2026;
 }
 
+.model-3d-0 a {
+  background: #333;
+  float: left;
+  margin: 0 10px;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.model-3d-0 a:hover {
+  -moz-transform: rotateX(-90deg);
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+.model-3d-0 a:hover .fornt {
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.model-3d-0 a:hover .back {
+  -moz-backface-visibility: visible;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+.model-3d-0 .front, .model-3d-0 .back {
+  width: 48px;
+  height: 48px;
+  background: #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -moz-transform: translateZ(18px);
+  -webkit-transform: translateZ(18px);
+  transform: translateZ(18px);
+  -moz-backface-visibility: visible;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+.model-3d-0 .back {
+  font-size: 32px;
+  -moz-transform: rotateX(90deg) translateZ(18px);
+  -ms-transform: rotateX(90deg) translateZ(18px);
+  -webkit-transform: rotateX(90deg) translateZ(18px);
+  transform: rotateX(90deg) translateZ(18px);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.model-3d-0 .twitter .back {
+  background: #00ACED;
+}
+.model-3d-0 .facebook .back {
+  background: #3B579D;
+}
+.model-3d-0 .google-plus .back {
+  background: #DD4A3A;
+}
+.model-3d-0 .linkedin .back {
+  background: #007BB6;
+}
+.model-3d-0 .pinterest .back {
+  background: #CB2026;
+}
+.model-3d-0 .behance .back {
+  background: #1769ff;
+}
+.model-3d-0 .instagram .back {
+    background: rgb(249,237,50);
+    background: -moz-linear-gradient(45deg, rgba(249,237,50,1) 0%, rgba(238,42,123,1) 65%, rgba(238,42,123,1) 65%, rgba(0,42,255,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(249,237,50,1) 0%,rgba(238,42,123,1) 65%,rgba(238,42,123,1) 65%,rgba(0,42,255,1) 100%);
+    background: linear-gradient(45deg, rgba(249,237,50,1) 0%,rgba(238,42,123,1) 65%,rgba(238,42,123,1) 65%,rgba(0,42,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9ed32', endColorstr='#002aff',GradientType=1 );
+}
 
+
+.model-3d-1 a {
+  background: #fff;
+  color: #666;
+  float: left;
+  margin: 0 10px;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+.model-3d-1 a:hover {
+  color: #fff;
+  -moz-transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+.model-3d-1 a:hover .fornt {
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.model-3d-1 a:hover .back {
+  -moz-backface-visibility: visible;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+.model-3d-1 .front, .model-3d-1 .back {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  -moz-backface-visibility: visible;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+.model-3d-1 .back {
+  -moz-transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.model-3d-1 .twitter .back {
+  background: #00ACED;
+}
+.model-3d-1 .facebook .back {
+  background: #3B579D;
+}
+.model-3d-1 .google-plus .back {
+  background: #DD4A3A;
+}
+.model-3d-1 .linkedin .back {
+  background: #007BB6;
+}
+.model-3d-1 .pinterest .back {
+  background: #CB2026;
+}
 /*====== Model-9 Animation ========*/
 @-moz-keyframes icon-move {
   49% {
@@ -3848,22 +3982,28 @@ figure.vimeo a img, figure.youtube a img {
 ================================================== */
 
 @media only screen and (max-width: 1320px) {
-#owl-sep-1.owl-theme .owl-controls .owl-page span{
-	display:none;
+    #owl-sep-1.owl-theme .owl-controls .owl-page span{
+    	display:none;
+    }
+    #owl-home.owl-theme .owl-controls{
+    	left:30px;
+    	bottom:30px;
+    	top:auto;
+    	-webkit-transform: translateY(0);
+    	-moz-transform: translateY(0);
+    	-ms-transform: translateY(0);
+    	-o-transform: translateY(0);
+    	transform: translateY(0);
+    }
+    .services-wrap {
+    	padding:40px;
+    }
 }
-#owl-home.owl-theme .owl-controls{
-	left:30px;
-	bottom:30px;
-	top:auto;
-	-webkit-transform: translateY(0);
-	-moz-transform: translateY(0);
-	-ms-transform: translateY(0);
-	-o-transform: translateY(0);
-	transform: translateY(0);
-}
-.services-wrap {
-	padding:40px;
-}
+
+@media only screen and (max-width: 1319px) {
+    .footer-social-wrap {
+        margin-top: 0 !important;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
